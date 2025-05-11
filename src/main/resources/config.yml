@@ -1,0 +1,56 @@
+cargos:
+  Forasteiro:
+    comandos:
+      - "say %player% agora é um Forasteiro!"
+    preco: "0"
+    vantagens:
+      - "Início da jornada"
+    descricao: "Um recém-chegado às terras."
+
+  Plebeu:
+    comandos:
+      - "say %player% virou Plebeu!"
+      - "give %player% stone 10"
+    preco: "500"
+    vantagens:
+      - "Pode usar /home"
+    descricao: "Um simples trabalhador do reino."
+
+  Cidadão:
+    comandos:
+      - "say %player% virou Cidadão!"
+      - "give %player% iron_ingot 5"
+    preco: "1500"
+    vantagens:
+      - "Acesso ao mercado"
+      - "Acesso a /tpa"
+    descricao: "Membro ativo da comunidade."
+
+  Burguês:
+    comandos:
+      - "say %player% se tornou Burguês!"
+      - "give %player% gold_ingot 3"
+    preco: "3500"
+    vantagens:
+      - "Acesso ao /kit burguês"
+    descricao: "Comerciante influente e rico."
+
+  Aristocrata:
+    comandos:
+      - "say %player% alcançou a Aristocracia!"
+      - "give %player% diamond 2"
+    preco: "6000"
+    vantagens:
+      - "Pode usar pets"
+      - "Pode usar /fly em zonas específicas"
+    descricao: "Elite da sociedade com grandes privilégios."
+
+  Nobre:
+    comandos:
+      - "say %player% agora é um Nobre!"
+      - "give %player% netherite_ingot 1"
+    preco: "10000"
+    vantagens:
+      - "Acesso total ao /fly"
+      - "Kit especial semanal"
+    descricao: "O topo da hierarquia."

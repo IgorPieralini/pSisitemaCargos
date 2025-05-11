@@ -1,0 +1,9 @@
+name: pluginHelios
+version: '1.0-SNAPSHOT'
+main: pieralini.com.pluginHelios.PluginHelios
+api-version: '1.21.4'
+depend: [CoinsEngine]
+commands:
+  cargos:
+    description: Abre a GUI de Cargos
+    usage: /cargos
